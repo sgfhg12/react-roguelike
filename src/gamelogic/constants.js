@@ -13,6 +13,7 @@ const gameField = (() => {
 export default {
     fieldWidth: 400,
     fieldHeight: 700, 
+    shapes:[ 'square' ],
     tetrominos: {
         square: {
             shape: [
